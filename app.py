@@ -3,7 +3,7 @@ import pymysql
 
 app=Flask(__name__)
 
-db=pymysql.connect(user='root',password='root',host='172.18.0.2', database='restarunt')
+db=pymysql.connect(user='root',password='root',host='project1-mysql-1', database='restarunt')
 
 cursor = db.cursor()
 
