@@ -2,7 +2,8 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: restaurant-management-deployment
-  namespace: restaurant-management
+  labels:
+    app: restaurant-management
 spec:
   replicas: 3
   selector:
