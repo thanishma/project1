@@ -21,3 +21,4 @@ EXPOSE 5000
 
 # Start the Flask application
 CMD ["flask", "run", "--host=0.0.0.0"]
+
